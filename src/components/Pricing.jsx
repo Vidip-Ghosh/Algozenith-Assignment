@@ -40,7 +40,7 @@ const Pricing = () => {
         <div>
           <img className='h-56' src={Frame215} alt="#" />
         </div>
-        <div style={{border: '1px solid black',background: 'linear-gradient(270deg, #05445E 0%, #022534 100%)'}}>
+        <div className='lg:w-[38vw] md:w-full w-full' style={{border: '1px solid black',background: 'linear-gradient(270deg, #05445E 0%, #022534 100%)'}}>
           <ul>
             <li className="flex items-center p-3">
               <img src={Rectangle89} alt="#" />
@@ -67,7 +67,9 @@ const Pricing = () => {
               <p className='p-3 text-lg text-white'>Flexible payment options, including no-cost EMI, are available.</p>
             </li>
           </ul>
-          <button className='p-3 w-80 text-[#05445E] rounded-lg text-lg' style={{background: 'linear-gradient(90.76deg, #FFFFFF 0%, #DFF6FF 144.63%)'}}>Join now &#8594;</button>
+          <div className='flex justify-center p-3'>
+            <button className='p-3 w-full text-[#05445E] rounded-lg text-lg' style={{background: 'linear-gradient(90.76deg, #FFFFFF 0%, #DFF6FF 144.63%)'}}>Join now &#8594;</button>
+          </div>
         </div>
       </div>
     </div>
