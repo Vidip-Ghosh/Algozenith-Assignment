@@ -43,30 +43,30 @@ const Pricing = () => {
           </div>
         </div>
         <div className='w-full' style={{border: '1px solid black',background: 'linear-gradient(270deg, #05445E 0%, #022534 100%)'}}>
-          <ul className=' bg-image2 bg-cover bg-no-repeat'>
+          <ul className=' bg-image2 bg-cover bg-no-repeat opacity-30'>
             <li className="flex items-center p-3">
               <img src={Rectangle89} alt="#" />
-              <p className='p-3 text-lg text-white'>100+ Hrs Live Content</p>
+              <p className='p-3 text-lg text-white opacity-100'>100+ Hrs Live Content</p>
             </li>
             <li className="flex items-center p-3">
               <img src={Rectangle89} alt="#" />
-              <p className='p-3 text-lg text-white'>50+ Hrs Contest</p>
+              <p className='p-3 text-lg text-white opacity-100'>50+ Hrs Contest</p>
             </li>
             <li className="flex items-center p-3">
               <img src={Rectangle89} alt="#" />
-              <p className='p-3 text-lg text-white'>500+ Problems</p>
+              <p className='p-3 text-lg text-white opacity-100'>500+ Problems</p>
             </li>
             <li className="flex items-center p-3">
               <img src={Rectangle89} alt="#" />
-              <p className='p-3 text-lg text-white'>Includes an interview bootcamp and access to a mentor network</p>
+              <p className='p-3 text-lg text-white opacity-100'>Includes an interview bootcamp and access to a mentor network</p>
             </li>
             <li className="flex items-center p-3">
               <img src={Rectangle89} alt="#" />
-              <p className='p-3 text-lg text-white'>Enjoy access to our content for one year (paid extensions available)</p>
+              <p className='p-3 text-lg text-white opacity-100'>Enjoy access to our content for one year (paid extensions available)</p>
             </li>
             <li className="flex items-center p-3">
               <img src={Rectangle89} alt="#" />
-              <p className='p-3 text-lg text-white'>Flexible payment options, including no-cost EMI, are available.</p>
+              <p className='p-3 text-lg text-white opacity-100'>Flexible payment options, including no-cost EMI, are available.</p>
             </li>
           </ul>
           <div className='flex justify-center p-3'>
