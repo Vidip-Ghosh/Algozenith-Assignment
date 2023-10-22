@@ -11,7 +11,7 @@ export default {
       },
       backgroundImage: {
         'image1': "url('../src/assets/Vector3.png')",
-        'image2': "url('../src/assets/Mesh.png')",
+        'image2': "url('../src/assets/Mesh2.png')",
       },
     },
   },
