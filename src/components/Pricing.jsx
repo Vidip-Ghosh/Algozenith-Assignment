@@ -4,7 +4,7 @@ import Rectangle89 from '../assets/Rectangle89.png';
 
 const Pricing = () => {
   return (
-    <div style={{ backgroundImage: `url('../assets/Vector3.png')` }} className="grid md:grid-cols-2 grid-cols-1 p-10">
+    <div className="grid md:grid-cols-2 grid-cols-1 p-10 bg-image1 bg-cover bg-no-repeat">
       <div className='flex items-center flex-col justify-center'>
       <h1 className="font-[800] md:text-[64px] font-rubik">Invest in skills,<br /> <span className='text-[#05445E]'> earn 10X</span> of what you paid.</h1>
         <p className='text-2xl mt-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -31,17 +31,19 @@ const Pricing = () => {
           </ul>
         </div>
       </div>
-      <div className='p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-6'>
-        <div className='bg-white p-4 rounded-lg'>
-          <p className='text-[24px] font-semibold text-[#0F0F0F]'>Premium Victory Batch</p>
-          <h1 className='text-[#818181] line-through text-[40px] mt-2'>₹19,999</h1>
-          <h1 style={{background: 'linear-gradient(90deg, #3F6FC1 0%, #05445E 100%)',WebkitTextFillColor: 'transparent',WebkitBackgroundClip: 'text'}} className='text-[64px] font-semibold'>₹13,999</h1>
+      <div className='flex flex-col items-center rounded-2xl border border-gray-700'>
+        <div className='bg-white p-4 rounded-lg flex'>
+          <div>
+            <p className='text-[24px] font-semibold text-[#0F0F0F]'>Premium Victory Batch</p>
+            <h1 className='text-[#818181] line-through text-[40px] mt-2'>₹19,999</h1>
+            <h1 style={{background: 'linear-gradient(90deg, #3F6FC1 0%, #05445E 100%)',WebkitTextFillColor: 'transparent',WebkitBackgroundClip: 'text'}} className='text-[64px] font-semibold'>₹13,999</h1>
+          </div>
+          <div>
+            <img className='h-56' src={Frame215} alt="#" />
+          </div>
         </div>
-        <div>
-          <img className='h-56' src={Frame215} alt="#" />
-        </div>
-        <div className='lg:w-[38vw] md:w-full w-full' style={{border: '1px solid black',background: 'linear-gradient(270deg, #05445E 0%, #022534 100%)'}}>
-          <ul>
+        <div className='w-full' style={{border: '1px solid black',background: 'linear-gradient(270deg, #05445E 0%, #022534 100%)'}}>
+          <ul className=' bg-image2 bg-cover bg-no-repeat'>
             <li className="flex items-center p-3">
               <img src={Rectangle89} alt="#" />
               <p className='p-3 text-lg text-white'>100+ Hrs Live Content</p>
