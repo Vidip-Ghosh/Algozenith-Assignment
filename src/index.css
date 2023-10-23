@@ -1,15 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Rubik:wght@800&display=swap');
-
-.font-rubik {
-  font-family: 'DM Sans', sans-serif;
-  font-family: 'Rubik', sans-serif;
-}
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr; 
-  }
-}
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Rubik:wght@800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.font-rubik {
+	font-family: "DM Sans", sans-serif;
+	font-family: "Rubik", sans-serif;
+}
+@media (max-width: 768px) {
+	.grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.button-gradient {
+	background: linear-gradient(90deg, #033042 100%, #005c83 100%);
+}
