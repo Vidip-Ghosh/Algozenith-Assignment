@@ -13,7 +13,7 @@ const Pricing = () => {
           <p style={{fontFamily: 'DM Sans'}} className='text-2xl mt-5 font-normal'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
-          <div className='flex'>
+          <div className='flex flex-wrap'>
             <ul>
               <li className="flex items-center p-3">
                 <img src={Rectangle132} alt="#" />
